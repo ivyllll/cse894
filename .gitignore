@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+bench
+bench_tsan
+bench_asan
+*.o
+*.dSYM
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Note: results/*.csv and figures/*.png are intentionally tracked
+# to preserve the experimental data referenced in the report.
